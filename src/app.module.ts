@@ -16,7 +16,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
      // ssl: { rejectUnauthorized: false },
-    }),],
+    }),
+    
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
